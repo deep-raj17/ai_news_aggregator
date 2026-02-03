@@ -5,7 +5,7 @@
 
 This project is organized across three branches, each corresponding to a different phase of the build:
 
-- **`master`** - Part 1: Local setup and core functionality
+- **`main`** - Part 1: Local setup and core functionality
 - **`deployment`** - Part 2: Deployment configuration and infrastructure
 - **`deployment-final`** - Part 3: Final optimizations and production-ready changes
 
