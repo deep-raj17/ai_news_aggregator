@@ -1,103 +1,43 @@
-AI News Aggregator
+# AI News Aggregator - Live Build Repository
 
-An Intelligent System for Automated News Collection, Classification, and Summarization Using NLP and Machine Learning
+This repository accompanies my 3-hour live coding session where I build a complete AI-powered news aggregator from scratch. This is a **private repository** containing valuable implementation details and deployment strategies used in production environments.
 
-Overview
+## Project Structure
 
-The AI News Aggregator is an automated system designed to collect, process, classify, and summarize news articles from multiple digital sources using Natural Language Processing (NLP) and Machine Learning (ML) techniques. The system addresses information overload by delivering concise, categorized, and relevant news content.
+This project is organized across three branches, each corresponding to a different phase of the build:
 
-Problem Statement
+- **`master`** - Part 1: Local setup and core functionality
+- **`deployment`** - Part 2: Deployment configuration and infrastructure
+- **`deployment-final`** - Part 3: Final optimizations and production-ready changes
 
-The rapid growth of online news content results in redundancy, inefficiency, and difficulty in identifying relevant information. Existing platforms lack intelligent summarization and semantic understanding, necessitating an AI-driven solution for efficient news aggregation.
+Each branch serves as an intermediate checkpoint, allowing you to reference the exact state of the codebase at any point during the video.
 
-Objectives
 
-Automate news collection from multiple sources
 
-Preprocess and clean unstructured text data
+## How to Follow Along
 
-Classify news articles into predefined categories
+### Recommended Approach (Maximum Learning)
 
-Generate concise summaries of news content
+1. **Clone this repository** before starting the video
+2. **Keep a local copy ready** on your system as you code along
+3. **Use intermediate checkpoints** - When I make major updates or run tests, pause and:
+   - Reference the corresponding branch in this repository
+   - Copy relevant code snippets into your project
+   - Use AI coding assistants to help you reach the same checkpoint
+4. **Iterate step-by-step** - Don't rush ahead. Ensure each phase works before moving forward
+5. **Expect confusion** - Some parts will move fast and may not be immediately clear. This is where real learning happens
 
-Reduce redundancy and improve information accessibility
+### Alternative Approach (Not Recommended)
 
-Dataset
+You can skip ahead to the `deployment-final` branch and try to get everything working, but you'll miss the iterative problem-solving process that makes this valuable.
 
-News articles collected via APIs, RSS feeds, or web scraping
+## Why This Approach?
 
-Attributes: Title, Source, Publication Date, Content, Category
+Traditional tutorials show you the "right way" to do things. This video shows you the **real way** - with AI assistance, rapid iteration, debugging, and adapting on the fly. By following along and hitting the same checkpoints, you'll:
 
-Data type: Unstructured textual data
+- Learn how to effectively leverage AI coding tools
+- Understand the thought process behind architectural decisions
+- Experience real-world development workflows
+- Build muscle memory through hands-on practice
 
-Methodology
-
-Data Collection: Fetch news from online sources using APIs or scraping
-
-Preprocessing: Tokenization, stop-word removal, lemmatization
-
-Feature Extraction: TF-IDF / word embeddings
-
-Classification: ML models (Naïve Bayes, SVM, Logistic Regression)
-
-Summarization: Extractive NLP-based techniques
-
-Output: Categorized and summarized news articles
-
-Tools & Technologies
-
-Language: Python
-
-Libraries: NumPy, Pandas, Scikit-learn, NLTK, spaCy
-
-Frameworks: Flask / FastAPI (optional)
-
-Version Control: Git, GitHub
-
-System Requirements
-
-Hardware: 8 GB RAM, Intel i5 or higher
-
-Software: Python 3.8+, Git, Web Browser
-
-How to Run
-git clone https://github.com/username/ai-news-aggregator.git
-cd ai-news-aggregator
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-
-Applications
-
-Personalized news platforms
-
-Media monitoring systems
-
-Academic and research analysis
-
-Intelligent content recommendation systems
-
-Expected Outcomes
-
-Automated real-time news aggregation
-
-Accurate news classification
-
-Concise summaries for faster consumption
-
-Reduced information overload
-
-Future Scope
-
-Transformer-based models (BERT, GPT)
-
-Multilingual news aggregation
-
-Fake news detection and sentiment analysis
-
-Mobile and cloud deployment
-
-Conclusion
-
-This project demonstrates the effective application of NLP and ML techniques in intelligent information retrieval. The AI News Aggregator provides a scalable and efficient solution for modern news consumption by transforming raw news data into structured, meaningful insights.
+**The most valuable learning happens when you struggle, reference the code, and push through to the next checkpoint.**
